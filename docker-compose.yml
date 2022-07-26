@@ -1,0 +1,9 @@
+---
+version: "2"
+services:
+  homer:
+    build: .
+    container_name: homer
+    ports:
+      - 8080:8080
+    

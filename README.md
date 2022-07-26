@@ -1,3 +1,10 @@
+Clone
+
+``` powershell
+git clone git@github.com:urskog84/stadium-homer.git
+
+cd stadium-homer
+```
 Singe Docker command
 
 ``` powershell
