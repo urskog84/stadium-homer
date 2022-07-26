@@ -8,7 +8,7 @@ cd stadium-homer
 Singe Docker command
 
 ``` powershell
-docker run --rm -p 8080:8080 $(docker build . -q)
+docker run --rm -p 8080:8080 --name homer $(docker build . -q)
 ```
 
 Docker-compise command
